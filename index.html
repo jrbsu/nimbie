@@ -1,0 +1,19 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en" id="vbulletin_html">
+    <head>
+    	<title>NIMBIE media summary script</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+	    <script type="text/javascript" src="script.js"></script>
+	    <script type="text/javascript" src="date.format.js"></script>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+		<textarea id="stuffs" style="width: 100%; height: 150px" placeholder="Paste summary in here..."></textarea><br/>
+		<textarea id="result" style="width: 100%; height: 300px" placeholder="...and the WikiText will appear here!"></textarea>
+        <button class="go" onclick="convert()">Go!</button>
+        <button class="help">Help</button>
+        <div class="helpbox hidden">
+            <p>To use this tool, paste a New Readers media summary into the top box and hit "Go!".</p><p><strong>Ensure</strong> that all countries and reports are separated with four dashes, including four at the top and four at the bottom.</p><p><strong>Make sure</strong> that the "about" text is one line, and that all quotes etc. are all also on one line.</p><p>Clean up the input if the output is unsatisfactory. :)</p>
+        </div>
+	</body>
+</html>

@@ -1,0 +1,82 @@
+
+textarea {
+    background: #fefefe;
+    font-family: monospace;
+}
+
+button.go {
+    background: #23d400;
+    background-image: -webkit-linear-gradient(top, #23d400, #97b82b);
+    background-image: -moz-linear-gradient(top, #23d400, #97b82b);
+    background-image: -ms-linear-gradient(top, #23d400, #97b82b);
+    background-image: -o-linear-gradient(top, #23d400, #97b82b);
+    background-image: linear-gradient(to bottom, #23d400, #97b82b);
+    -webkit-border-radius: 25;
+    -moz-border-radius: 25;
+    border-radius: 25px;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    border: solid #51b300 2px;
+    text-decoration: none;
+}
+
+button.go:hover, button.help:hover, button.day:hover {
+    background: #3ca9fc;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button.help {
+    background: #b800d4;
+    background-image: -webkit-linear-gradient(top, #b800d4, #b82c5f);
+    background-image: -moz-linear-gradient(top, #b800d4, #b82c5f);
+    background-image: -ms-linear-gradient(top, #b800d4, #b82c5f);
+    background-image: -o-linear-gradient(top, #b800d4, #b82c5f);
+    background-image: linear-gradient(to bottom, #b800d4, #b82c5f);
+    -webkit-border-radius: 25;
+    -moz-border-radius: 25;
+    border-radius: 25px;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    border: solid #51b300 2px;
+    text-decoration: none;
+}
+
+#result {
+    margin: 1em auto
+}
+
+button.day {
+    background: #00bad4;
+    background-image: -webkit-linear-gradient(top, #00bad4, #0044d4);
+    background-image: -moz-linear-gradient(top, #00bad4, #0044d4);
+    background-image: -ms-linear-gradient(top, #00bad4, #0044d4);
+    background-image: -o-linear-gradient(top, #00bad4, #0044d4);
+    background-image: linear-gradient(to bottom, #00bad4, #0044d4);
+    -webkit-border-radius: 25;
+    -moz-border-radius: 25;
+    border-radius: 25px;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    border: solid #51b300 2px;
+    text-decoration: none;
+}
+
+.helpbox {
+    width: 50%;
+    float: right;
+    background: #d8ccf4;
+    border: 5px solid #b800d4;
+    padding: 0 1rem;
+}
+
+.helpbox p {
+    font-family: "Open Sans", sans-serif;
+}
+
+.hidden {
+    display: none;
+}
